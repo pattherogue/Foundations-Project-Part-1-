@@ -170,11 +170,15 @@ caption {
   transform: scale(1.1);
 }
 
-.skills-container td {
-  transition: background-color 0.3s ease-in-out;
+.skills-container > table td {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.skills-container td:hover {
+.skills-container > table td:hover {
   background-color: #f2f2f2;
+  color: #333; /* Change text color on hover for increased contrast */
+  transform: scale(1.1); /* Optionally, add a scale effect */
 }
+
+
 

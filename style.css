@@ -159,6 +159,14 @@ caption {
   table {
     width: 100%;
   }
+
+  .skills-container {
+    overflow-x: auto;
+  }
+
+  .skills-container > table td {
+    font-size: 0.8em; /* Adjust as needed for readability */
+  }
 }
 
 /* Animations and Hover Effects */

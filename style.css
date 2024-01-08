@@ -216,5 +216,15 @@ caption {
   transform: scale(1.1); /* Optionally, add a scale effect */
 }
 
+.radio-option input:checked + .checkbox-label {
+  background-color: #007bff;
+}
+
+section:hover {
+  background-color: #f2f2f2;
+}
+
+
+
 
 

@@ -166,7 +166,7 @@ caption {
   transition: transform 0.3s ease-in-out;
 }
 
-.header-container img:hover {
+.header-container:hover img {
   transform: scale(1.1);
 }
 
@@ -177,3 +177,4 @@ caption {
 .skills-container td:hover {
   background-color: #f2f2f2;
 }
+

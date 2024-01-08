@@ -160,3 +160,20 @@ caption {
     width: 100%;
   }
 }
+
+/* Animations and Hover Effects */
+.header-container img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-container img:hover {
+  transform: scale(1.1);
+}
+
+.skills-container td {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.skills-container td:hover {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+  color: #333;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: 'Arial', sans-serif;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Text Styling */
+h1, h2, h3 {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(136, 136, 136, 0.7);
+  padding-bottom: 10px;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2em; }
+p { font-size: 1.1em; }
+
+/* Header Styles */
+header {
+  text-align: center;
+}
+
+/* Table Styles */
+th, td {
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  background-color: hsl(210, 24%, 12%);
+  color: #fff;
+}
+
+/* Box Model Reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+input, textarea, select {
+  outline: none;
+}
+
+/* Header Container Styles with Flexbox */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center name in header */
+  padding: 10px;
+  margin: 0 50px;
+}
+
+/* Profile Picture Styles */
+.profile-picture {
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 120px;
+  align-self: flex-start; /* Move profile picture to the top left */
+}
+
+/* Center name in header */
+.header-container h1 {
+  align-self: center;
+}
+
+/* Move contact info to the bottom right */
+.contact-info {
+  align-self: flex-end;
+}
+
+/* Skills Container Styles */
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Skill Category Styles */
+.skill-category {
+  border-top: 2px solid #333;
+}
+
+/* Skills Table Styles */
+table {
+  width: 80%;
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  padding: 8px;
+}
+
+caption {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
